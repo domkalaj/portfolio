@@ -35,7 +35,7 @@ codeSGeometry.setAttribute(
 
 // Load the texture for the codeS
 const textureLoader = new THREE.TextureLoader();
-const codeSTexture = textureLoader.load("/images/svg/icon-codingSymbol.svg");
+const codeSTexture = textureLoader.load("images/svg/icon-codingSymbol.svg");
 
 const codeSMaterial = new THREE.PointsMaterial({
   size: 3,
